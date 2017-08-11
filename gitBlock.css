@@ -1,0 +1,158 @@
+*{
+  font-family: sans-serif;
+  color: white;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+
+body{
+  background-color: grey;
+}
+header{
+  width: 99%;
+  height: 65px;
+  margin: auto;
+  background-color: aqua;
+  position: relative;
+}
+header img{
+  width: 4%;
+  margin-left: 0.5%;
+  /*margin-top: 0.5%;*/
+  position: absolute;
+  top: 15%;
+}
+header h1{
+  display: inline-block;
+  line-height: inherit;
+  position: absolute;
+  left: 5%;
+}
+header a{
+  color: white;
+  line-height: inherit;
+  margin-left: 1%;
+
+}
+#top-link{
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  width: 60%;
+text-align: center;
+font-size: 15px;
+}
+main{
+  background-color: #fce59c;
+    width: 99%;
+margin:auto;
+margin-top: 15px;
+}
+aside{
+  background-color: #104043;
+  display: inline-block;
+  height: 659px;
+  width: 27%;
+  margin: 1.8%;
+  vertical-align: top;
+  overflow: scroll;
+}
+aside p, aside h2{
+  overflow: scroll;
+  margin: 20px;
+}
+
+article{
+
+  /*background-color: red;*/
+  display: inline-block;
+  height: 659px;
+  width: 63.1%;
+  margin: 1.8%;
+}
+#section-one{
+  height:35%;
+  margin-bottom: 30px;
+  /*background-color: blue;*/
+}
+#sec1{
+  display: inline-block;
+  background-color: #104043;
+  width: 30.27%;
+  height: 230.641px;
+  margin: 0% 4% 0% 0%;
+}
+#sec2{
+  display: inline-block;
+  background-color: #104043;
+  width: 30.27%;
+  height: 230.641px;
+  margin: 0% 0% 0% 0%;
+}
+#sec3{
+  display: inline-block;
+  background-color: #104043;
+  width: 30.27%;
+  height: 230.641px;
+  margin: 0% 0% 0% 4%;
+}
+#section-one h3, #section-one p{
+    margin: 20px;
+}
+
+#section-two{
+  height: 28%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  /*background-color: blue;*/
+}
+#one{
+  display: inline-block;
+  background-color: #104043;
+  width: 47.7%;
+  height: 184.516px;
+  margin: 0% 2% 0% 0%;
+}
+#second {
+  display: inline-block;
+  background-color: #104043;
+  width: 47.7%;
+  height: 184.516px;
+  margin: 0% 0% 0% 2%;
+  vertical-align: top;
+}
+#section-two h3, #section-two p{
+  margin: 20px;
+}
+
+#section-three {
+  height:28%;
+  margin-top: 10px;
+  background-color: #104043;
+  position: relative;
+}
+
+  #section-three h3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  #section-three p{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    right: 20px;
+  }
+footer{
+  background-color: aqua;
+    width: 99%;
+margin:auto;
+margin-top: 15px;
+text-align: center;
+}
+
+footer p{
+  margin-top: 0;
+  padding: 30px 0px 30px 0px;
+
+}
